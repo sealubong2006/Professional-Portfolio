@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aspiring Software Engineer - Backend-focused developer building production-style applications with Python, JavaScript, and modern web technologies">
+    <title>Personal Portfolio - Aspiring Software Engineer</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="sticky-header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#hero" class="logo">Seal's Portfolio</a>
+                <div class="nav-links">
+                    <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+                    <a href="#stack" class="nav-link" data-section="stack">Stack</a>
+                    <a href="#timeline" class="nav-link" data-section="timeline">Timeline</a>
+                    <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+                </div>
+                <div class="header-actions">
+                    <a href="mailto:seal.udokang@gmail.com" class="email-link">Email</a>
+                    <a href="https://github.com/sealubong2006" target="_blank" rel="noopener" class="social-icon" aria-label="GitHub">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sealudokang/" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section fade-in">
+        <div class="container">
+            <div class="hero-wrapper">
+                <div class="hero-profile">
+                    <img src="assets/profile.png" alt="Seal Udokang" class="profile-picture">
+                </div>
+                <div class="hero-content">
+                    <h1 class="hero-title">Aspiring Software Engineer Working On Building Intelligent Systems That Sense and Respond </h1>
+                    <p class="hero-subtitle">Strongest in Python, building full-stack capability through project-driven learning</p>
+                    <div class="credibility-chips">
+                        <span class="chip">Backend First</span>
+                        <span class="chip">AI & IoT</span>
+                        <span class="chip">Project-Driven Learning</span>
+                    </div>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="/assets/Seal Udokang-CV.pdf" download class="btn btn-secondary">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section fade-in">
+        <div class="container">
+            <h2 class="section-title">Selected Projects</h2>
+            
+            <!-- Project Filter Bar -->
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="api">API</button>
+                <button class="filter-btn" data-filter="tests">Tests</button>
+                <button class="filter-btn" data-filter="pdf">PDF Export</button>
+                <button class="filter-btn" data-filter="storage">Client Storage</button>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+                <!-- Project 1: Developer Roadmap -->
+                <article class="project-card" data-tags="backend api tests pdf">
+                    <div class="project-header">
+                        <h3 class="project-title">Developer Roadmap</h3>
+                        <div class="project-badges">
+                            <span class="badge badge-production">Production-Style</span>
+                        </div>
+                    </div>
+                    <p class="project-description">Full-stack learning tracker with GitHub integration, progress analytics, and PDF export</p>
+                    <div class="project-stack">
+                        <span class="stack-tag">HTML 5</span>
+                        <span class="stack-tag">CSS 3</span>
+                        <span class="stack-tag">JavaScript</span>
+                        <span class="stack-tag">Node.js</span>
+                        <span class="stack-tag">Express.js</span>
+                        <span class="stack-tag">Claude Code</span>
+                        <span class="stack-tag">API's</span>
+                    </div>
+                    <div class="project-proof">
+                        <div class="proof-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Rate limiting</span>
+                        </div>
+                        <div class="proof-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Caching with TTL</span>
+                        </div>
+                        <div class="proof-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Error handling</span>
+                        </div>
+                        <div class="proof-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Unit tests</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/sealubong2006/developer-roadmap-validator.git" target="_blank" rel="noopener" class="project-link">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                            Code
+                        </a>
+                        <a href="https://developer-roadmap-validator.onrender.com/" target="_blank" rel="noopener" class="project-link">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            Live Demo
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 2: ExamReady -->
+                <article class="project-card" data-tags="frontend">
+                    <div class="project-header">
+                        <h3 class="project-title">ExamReady</h3>
+                        <div class="project-badges">
+                            <span class="badge badge-frontend">Frontend Only</span>
+                        </div>
+                    </div>
+                    <p class="project-description">A lightweight, front-end only study website for T Level exam preparation. Built with HTML, CSS, Bootstrap, and vanilla JavaScript with no backend dependencies.</p>
+                    <div class="project-stack">
+                        <span class="stack-tag">JavaScript</span>
+                        <span class="stack-tag">HTML/CSS</span>
+                        <span class="stack-tag">Bootstrap</span>
+                    </div>
+                    <div class="project-proof">
+                        <div class="proof-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Responsive design</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/sealubong2006/examready.git" target="_blank" rel="noopener" class="project-link">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                            Code
+                        </a>
+                        <a href="https://sealubong2006.github.io/examready/index.html" target="_blank" rel="noopener" class="project-link">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            Live Demo
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 3: BlogBox -->
+                <article class="project-card" data-tags="frontend storage backend">
+                    <div class="project-header">
+                        <h3 class="project-title">BlogBox</h3>
+                        <div class="project-badges">
+                            <span class="badge badge-frontend">Client-Side Storage</span>
+                        </div>
+                    </div>
+                    <p class="project-description">Minimal blog platform with local storage persistence and markdown support</p>
+                    <div class="project-stack">
+                        <span class="stack-tag">Express.js</span>
+                        <span class="stack-tag">Javascript</span>
+                        <span class="stack-tag">HTML/CSS</span>
+                        <span class="stack-tag">LocalStorage</span>
+                        <span class="stack-tag">EJS</span>
+                    </div>
+                    <div class="project-proof">
+                        <div class="proof-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>CRUD operations</span>
+                        </div>
+                        <div class="proof-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Data persistence</span>
+                        </div>
+                        <div class="proof-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            <span>Markdown preview</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/sealubong2006/BlogBox.git" target="_blank" rel="noopener" class="project-link">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                            Code
+                        </a>
+                        <a href="https://blogbox-oy51.onrender.com/" target="_blank" rel="noopener" class="project-link">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            Live Demo
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Featured Case Study: Developer Roadmap -->
+            <div class="case-study fade-in">
+                <h3 class="case-study-title">Featured: BlogBox Deep Dive</h3>
+                
+                <div class="case-study-content">
+                    <div class="case-study-section">
+                        <h4 class="case-study-heading">Architecture Overview</h4>
+                        <p class="case-study-text">A minimal blog web application built with Express, EJS, and Multer. It supports creating, listing, editing, viewing, and deleting posts with optional image uploads. Posts are stored in memory for development and reset on server restart.</p>
+                    </div>
+
+                    <div class="case-study-section">
+                        <h4 class="case-study-heading">Features</h4>
+                        <div class="production-signals">
+                            <div class="signal-item">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Home shows the latest 3 posts</span>
+                            </div>
+                            <div class="signal-item">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>List all posts</span>
+                            </div>
+                            <div class="signal-item">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Create post with title, content, and optional image</span>
+                            </div>
+                            <div class="signal-item">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Edit and delete posts</span>
+                            </div>
+                            <div class="signal-item">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Single post view</span>
+                            </div>
+                            <div class="signal-item">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Static About and Contact pages</span>
+                            </div>
+                            <div class="signal-item">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>Basic 404 handler</span>
+                            </div>
+                            <div class="signal-item">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <span>PDF export functionality using jsPDF library</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="case-study-section">
+                        <h4 class="case-study-heading">What I Learned</h4>
+                        <ul class="learning-list">
+                            <li>Using Node.js and Express.js for backend development</li>
+                            <li>Implementing Server-Side templates using Embedded JavaScript (EJS)</li>
+                            <li>Structuring error responses for clear debugging without exposing internals</li>
+                            <li>Using Multer for handling file uploads</li>
+                            <li>Body-parser and URL encoding for parsing request bodies</li>
+                            <li>Thinking about Limitations and constraints in system design</li>
+                            <li>Planning for Improvements like adding database support and evolving the architecture</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="stack" class="stack-section fade-in">
+        <div class="container">
+            <h2 class="section-title">Tech Stack Architecture</h2>
+            
+            <div class="stack-grid">
+                <div class="stack-category">
+                    <h3 class="stack-category-title">Languages</h3>
+                    <div class="stack-items">
+                        <div class="stack-item">
+                            <div class="stack-item-name">Python</div>
+                            <div class="stack-item-proof">Backend APIs, data processing, automation scripts</div>
+                        </div>
+                        <div class="stack-item">
+                            <div class="stack-item-name">JavaScript</div>
+                            <div class="stack-item-proof">DOM manipulation, async operations, API consumption</div>
+                        </div>
+                        <div class="stack-item">
+                            <div class="stack-item-name">SQL</div>
+                            <div class="stack-item-proof">Schema design, query optimization, joins</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stack-category">
+                    <h3 class="stack-category-title">Backend</h3>
+                    <div class="stack-items">
+                        <div class="stack-item">
+                            <div class="stack-item-name">Flask</div>
+                            <div class="stack-item-proof">RESTful APIs, routing, middleware, blueprints</div>
+                        </div>
+                        <div class="stack-item">
+                            <div class="stack-item-name">Node.js</div>
+                            <div class="stack-item-proof">Server-side JavaScript runtime, event-driven I/O</div>
+                        </div>
+                        <div class="stack-item">
+                            <div class="stack-item-name">Express.js</div>
+                            <div class="stack-item-proof">Web application framework for Node.js, middleware support</div>
+                        </div>
+                        <div class="stack-item">
+                            <div class="stack-item-name">C#</div>
+                            <div class="stack-item-proof">ASP.NET Core, web applications, object-oriented programming</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stack-category">
+                    <h3 class="stack-category-title">Frontend</h3>
+                    <div class="stack-items">
+                        <div class="stack-item">
+                            <div class="stack-item-name">HTML/CSS</div>
+                            <div class="stack-item-proof">Semantic markup, flexbox/grid, responsive design</div>
+                        </div>
+                        <div class="stack-item">
+                            <div class="stack-item-name">Bootstrap</div>
+                            <div class="stack-item-proof">Component library, utility classes, mobile-first</div>
+                        </div>
+                        <div class="stack-item">
+                            <div class="stack-item-name">React</div>
+                            <!-- <div class="stack-item-proof">Component-based UI development, state management, hooks</div> -->
+                            <div class="stack-item-proof">Learning component-based UI development, state management, hooks</div> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stack-category">
+                    <h3 class="stack-category-title">Database</h3>
+                    <div class="stack-items">
+                        <div class="stack-item">
+                            <div class="stack-item-name">SQLite</div>
+                            <div class="stack-item-proof">Local development, file-based persistence</div>
+                        </div>
+                        <div class="stack-item">
+                            <div class="stack-item-name">PostgreSQL</div>
+                            <div class="stack-item-proof">Learning production databases, complex queries, ACID compliance</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stack-category">
+                    <h3 class="stack-category-title">Tools</h3>
+                    <div class="stack-items">
+                        <div class="stack-item">
+                            <div class="stack-item-name">Git</div>
+                            <div class="stack-item-proof">Version control, branching, PR workflow</div>
+                        </div>
+                        <div class="stack-item">
+                            <div class="stack-item-name">pytest</div>
+                            <div class="stack-item-proof"> Learning Unit tests, fixtures, mocking, coverage</div>
+                        </div>
+                        <div class="stack-item">
+                            <div class="stack-item-name">Postman</div>
+                            <div class="stack-item-proof">API testing, request collections, environment variables</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Systems Over Syntax -->
+            <div class="systems-section">
+                <h3 class="systems-title">Systems Over Syntax</h3>
+                <ul class="systems-list">
+                    <li>Design RESTful APIs with clear resource endpoints and appropriate HTTP methods</li>
+                    <li>Implement authentication flows including OAuth and session-based auth</li>
+                    <li>Structure applications with separation of concerns: structure, styles, functionality</li>
+                    <li>Write code taking into account maintainability, readability, and scalability</li>
+                    <li>Optimize database queries and understand when to use indexes</li>
+                    <li>Debug using logging, breakpoints, and systematic elimination of variables</li>
+                    <li>Read documentation to understand libraries rather than copy-paste solutions</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline-section fade-in">
+        <div class="container">
+            <h2 class="section-title">Journey</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">2026</div>
+                    <div class="timeline-content">
+                        <h4 class="timeline-title">Continuing Growth</h4>
+                        <p class="timeline-text">Strengthening skills in full-stack development and Python, building more complex projects</p>
+                        <div class="timeline-milestone">Attempted to build a production-ready web application</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">2025</div>
+                    <div class="timeline-content">
+                        <h4 class="timeline-title">Locked In Self Directed Learning & Personal Branding</h4>
+                        <p class="timeline-text">Building portfolio, personal brand, strengthening full-stack and python skills, mastering fundamentals</p>
+                        <div class="timeline-milestone">Built 3 projects in 2025</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">2024</div>
+                    <div class="timeline-content">
+                        <h4 class="timeline-title">First Reset</h4>
+                        <p class="timeline-text">Reassessed goals and restructured learning path</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">2023</div>
+                    <div class="timeline-content">
+                        <h4 class="timeline-title">University Studies</h4>
+                        <p class="timeline-text">Started university studies in Computer Science</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">2022</div>
+                    <div class="timeline-content">
+                        <h4 class="timeline-title">Finished High School</h4>
+                        <p class="timeline-text">Started to understand the importance of continuous learning and self-improvement</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">2020</div>
+                    <div class="timeline-content">
+                        <h4 class="timeline-title">First Programming in-person bootcamp</h4>
+                        <p class="timeline-text">Completed a comprehensive programming bootcamp covering web-development</p>
+                        <div class="timeline-milestone">Milestone: Completed front-end basics</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">2018</div>
+                    <div class="timeline-content">
+                        <h4 class="timeline-title">Deep Dive into web development</h4>
+                        <p class="timeline-text">Started to learn HTML, CSS, and JavaScript in depth</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">2016</div>
+                    <div class="timeline-content">
+                        <h4 class="timeline-title">Initial Interest in Programming</h4>
+                        <p class="timeline-text">Started High School, got interested in programming and started learning basics</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section fade-in">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            
+            <div class="contact-content">
+                <div class="contact-text">
+                    <p>Looking for my first software engineering role. Open to junior backend positions, full-stack opportunities, or apprenticeships where I can contribute immediately and grow rapidly.</p>
+                </div>
+
+                <div class="contact-actions">
+                    <a href="mailto:sealudokang@gmail.com" class="btn btn-primary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        Email Me
+                    </a>
+                    <a href="https://www.linkedin.com/in/sealudokang/" target="_blank" rel="noopener" class="btn btn-secondary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                        LinkedIn
+                    </a>
+                </div>
+
+                <!-- Optional Contact Form -->
+                <form class="contact-form" action="https://formspree.io/f/mgoladwy" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-control" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">Seal Udokang - Aspiring software engineer focused on building intelligent, scalable applications</p>
+            <div class="footer-links">
+                <a href="https://github.com/sealubong2006" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://www.linkedin.com/in/sealudokang/" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="mailto:sealudokang@gmail.com">Email</a>
+            </div>
+            <p class="footer-copyright">&copy; <span id="currentYear"></span> Seal Udokang. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
