@@ -258,8 +258,8 @@ a:hover {
 }
 
 .profile-picture {
-    width: 160px;
-    height: 160px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid var(--color-accent);
