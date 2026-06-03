@@ -1,65 +1,46 @@
-
 # Seal Udokang - Portfolio
 
-A modern, portfolio website showcasing projects, tech stack, and professional journey.
+A static personal portfolio for a junior software engineer profile. The site highlights selected projects, verified tech stacks, learning progress, and contact details.
 
 ## Overview
 
-Full-stack portfolio built with vanilla HTML, CSS, and JavaScript. Features a dark theme with cyan accents, interactive project filtering, smooth scrolling navigation, and responsive design.
+This portfolio is built with vanilla HTML, CSS, and JavaScript. It keeps the existing dark theme with cyan accents, responsive project cards, filterable project categories, smooth navigation, and a contact form.
 
-## Features
+## Featured Projects
 
-- **Hero Section** - Professional introduction with profile image and CTA buttons
-- **Project Showcase** - Filterable grid of 3 featured projects with live demos and source code
-- **Tech Stack** - Organized breakdown of skills by category (Languages, Backend, Frontend, Database, Tools)
-- **Systems Over Syntax** - Core development principles and best practices
-- **Timeline** - Educational journey from 2016 to present
-- **Contact** - Direct email link and Formspree integration
-- **Responsive Design** - Mobile-first approach using CSS Grid and Flexbox
-- **Accessibility** - ARIA labels, keyboard navigation, semantic HTML
-- **Performance** - Lazy loading support, debounced scroll events, optimized animations
+1. **Household Shopping App** - Next.js, TypeScript, React, Supabase, Postgres, auth, RLS, and Vercel.
+2. **RepLog Web App** - Static workout tracker using vanilla JavaScript, Bootstrap, IndexedDB, and GitHub Pages.
+3. **BlogBox** - Express and EJS blog app with CRUD routes and optional image uploads.
+4. **ExamReady** - Frontend-only T Level study hub with guides, filters, FAQ content, PDF previews, and GitHub Pages deployment.
+5. **Developer Roadmap Validator** - Express app using GitHub and Stack Exchange APIs, rate limiting, caching, and PDFKit reports.
+6. **Movie Collection Web App** - Flask, SQLAlchemy, SQLite, WTForms, and TMDB API project.
+7. **Data Entry Automation** - Python web scraping and browser automation project using Selenium, BeautifulSoup, Google Forms, and Google Sheets.
 
 ## Tech Stack
 
-- **Frontend**: HTML5, CSS3, Vanilla JavaScript
-- **Styling**: CSS Custom Properties (Variables), Flexbox, Grid
-- **Libraries**: Bootstrap CDN, Google Fonts (Manrope, JetBrains Mono)
-- **Forms**: Formspree integration
-- **Design**: Dark theme with cyan accent color (#06d6a0)
-
-## Project Highlights
-
-1. **Developer Roadmap** - Production-style full-stack app with GitHub integration, rate limiting, caching, unit tests
-2. **ExamReady** - Frontend-only study platform for T Level exam prep
-3. **BlogBox** - Express.js blog with CRUD operations, markdown support, client-side storage
+- **Frontend**: HTML5, CSS3, Bootstrap, vanilla JavaScript
+- **Styling**: CSS custom properties, flexbox, grid, responsive layouts
+- **Interactions**: Project filters, smooth scrolling, active navigation, fade-in animations
+- **Forms**: Formspree contact form
+- **Deployment**: Static hosting friendly
 
 ## File Structure
 
+```text
+.
+├── assets/
+├── index.html
+├── script.js
+├── style.css
+└── README.md
 ```
-├── index.html      # Main HTML structure
-├── style.css       # Complete styling with design system
-├── script.js       # Interactive functionality
-└── README.md       # This file
-```
 
-## Key JavaScript Features
+## Running Locally
 
-- Active section tracking on scroll
-- Project filtering system
-- Smooth scroll navigation
-- Intersection Observer for fade-in animations
-- Form submission handling
-- Keyboard navigation support
-- Analytics event tracking (optional)
-
-## Getting Started
-
-1. Clone the repository
-2. Open `index.html` in a browser
-3. No build tools or dependencies required
+Open `index.html` in a browser. No build step is required.
 
 ## Contact
 
-**Email**: seal.udokang@gmail.com  
-**GitHub**: [sealubong2006](https://github.com/sealubong2006)  
-**LinkedIn**: [sealudokang](https://www.linkedin.com/in/sealudokang/)
+- Email: [sealudokang@gmail.com](mailto:sealudokang@gmail.com)
+- GitHub: [sealubong2006](https://github.com/sealubong2006)
+- LinkedIn: [sealudokang](https://www.linkedin.com/in/sealudokang/)
